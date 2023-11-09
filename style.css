@@ -1,0 +1,63 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-color: #999;
+    max-width: 720px;
+    margin: 0 auto;
+}
+.container{
+    display: block;
+    width: 600px;
+    flex-direction: row;
+}
+.menus{
+    display: flex;
+    background-color: aqua;
+}
+ul{
+    display: flex;
+    justify-content: space-between;
+    background-color: antiquewhite;
+    width: 100%;
+}
+li{
+    list-style-type: none;
+    display: inline;
+}
+h1{
+    color: green;
+}
+#title{
+    display: flex;
+    justify-content: center;
+}
+.from-grupo{
+    display: flex;
+    flex-direction: column;
+    padding: 5px;
+    flex: 1;
+}
+
+label{
+    display: flex;
+    margin: 10px 7px 5px 0px;
+}
+
+input{
+    border-radius: 5px;
+    background-color: lightsteelblue;
+}
+#nome_completo{
+    height: 25px;
+}
+#email{
+    height: 25px;
+}
+#assunto{
+    height: 25px;
+}
+#mensagem{
+    height: 70px;
+}
